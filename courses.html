@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Courses</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Available Courses</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="courses">
+        <div class="course">
+            <h3>Web Development</h3>
+            <p>Learn HTML, CSS, JavaScript & more.</p>
+            <button onclick="reserveCourse('Web Development')">Reserve</button>
+        </div>
+
+        <div class="course">
+            <h3>Data Science</h3>
+            <p>Explore Python, Machine Learning, and AI.</p>
+            <button onclick="reserveCourse('Data Science')">Reserve</button>
+        </div>
+        
+        <div class="course">
+            <h3>Graphic Design</h3>
+            <p>Master Photoshop, Illustrator & UI/UX.</p>
+            <button onclick="reserveCourse('Graphic Design')">Reserve</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Online Course Reservation. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
